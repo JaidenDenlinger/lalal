@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 12px rgb(126, 118, 118); */
+    /* height: 100vh; */
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    margin: 2px;
+}
+
+#name{
+    font-family: 'Quicksand';
+    font-weight: 300;
+    margin-top: 40px;
+    text-decoration: solid;
+}
+
+hr{
+    width: 100px;
+    height: 2px;
+    background-color: orange;
+    border: orange;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+.navbar {
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+}
+
+.navbar a:hover {color: orange;}
+
+.navbar a.active {
+    text-decoration: none;
+    color: orange;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.about{
+    line-height: 13px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.columns-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+    max-width: 1000px;
+}
+
+.columns {
+    flex: 1;
+    margin: 0;
+    padding: 00px;
+    text-align: center;
+    box-sizing: border-box;
+}
+ul{
+    line-height: 5px;
+}
+
+li{
+    text-align: left;
+    line-height: 25px;
+}
+
+
+.project-links{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: bold; 
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 25px;
+    
+}
+.project-links:hover {background-color: orange;}
+
+.columns-container2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.columns2 {
+    flex: 1;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.columns2 img{
+    max-width: 100%;
+    border: 2px solid black;
+    max-height: 200px;
+}
